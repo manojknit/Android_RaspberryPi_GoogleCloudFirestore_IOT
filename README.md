@@ -1,4 +1,4 @@
-# Android app to demonstrate Certificate Pinning
+# Android app 'Thermo-Humidity Alert' (Demo - Firebase, Serverless, IOT)
 ####                                                                                                     By Manoj Kumar
 ## Introduction 
 ‘Thermo-Humidity Alert’ app is an IOT base software that alert you if humidity or temperature of you room/home goes in critical territories. This app provide cloud base live monitoring capabilities from remote.
@@ -22,11 +22,11 @@ In winter people use heater and humidifier but they do not have monitoring syste
   - RaspberryPi_Code - Python raspberry pi code to get sensot data and insert in firebase db
   - Android_GoogleCloudFirestore - Android App
   
-  ### 1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy. $ firebase deploy</br>
+### 1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy. $ firebase deploy</br>
 <img src="images/Firebase Deploy.png">
-  ### 2.	RaspberryPi_Code - Follow tutorial to deploy Cloud function.</br>
+### 2.	RaspberryPi_Code - Follow tutorial to deploy Cloud function.</br>
 <img src="images/raspberrypi - VNC Viewer 2018-04-12 22-21-26.png">
-  ### 3. Android_GoogleCloudFirestore - Open and run in android studio.
+### 3. Android_GoogleCloudFirestore - Open and run in android studio.
 
 ## Technologies Used
 1.	Java.
