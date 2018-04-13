@@ -84,7 +84,15 @@ Sensor data which should be synced to firebase database.
 
 ## Refrence
 - [*Pro Android 5*](https://github.com/Apress/pro-android-5) by Dave MacLean, Satya Komatineni, and Grant Allen (Apress, 2015)
-- [*How to set up temperature and humidity sensor (DHT11) on raspberry Pi*](http://kookye.com/2017/06/01/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AF%BB%E5%8F%96dht11/)
+- How to set up temperature and humidity sensor (DHT11) on raspberry Pi   (http://kookye.com/2017/06/01/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AF%BB%E5%8F%96dht11/)
+- Cloud Firestore with Cloud Functions
+  (https://firebase.google.com/docs/functions/firestore-events)
+- Cloud Firestore Triggers
+  (https://firebase.google.com/docs/functions/firestore-events)
+- Set Up a Firebase Cloud Messaging Client App on Android
+  (https://firebase.google.com/docs/cloud-messaging/android/client?authuser=0)
+- Firebase Cloud Messaging
+  (https://github.com/firebase/functions-samples/blob/master/fcm-notifications/functions/index.js)
 
 ## Thank You
 #### [*Manoj Kumar*](https://www.linkedin.com/in/manojkumar19/)
