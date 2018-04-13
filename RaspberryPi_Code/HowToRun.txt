@@ -1,0 +1,40 @@
+Run Python code
+
+--sudo python ./dht11-test.py
+
+sudo python ./sensor-cloud-sync.py
+
+--pre compile file, . in place of file will compile all files
+--python -m compileall sensor-cloud-sync.py
+
+---------------------------------
+https://firestore.googleapis.com/v1beta1/projects/my-project-415-341/databases/(default)/documents/th-sensordata/
+-----------------------------------
+Start py file on OS start
+sudo service sensor-cloud-sync-manoj start
+sudo service sensor-cloud-sync-manoj stop
+
+
+Put this in /etc/init (Use /etc/systemd in Ubuntu 15.x)
+
+mystartupscript.conf
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+exec /path/to/script.py
+By placing this conf file there you hook into ubuntu's upstart service that runs services on startup.
+
+manual starting/stopping is done with sudo service mystartupscript start and sudo service mystartupscript stop
+
+http://www.instructables.com/id/Raspberry-Pi-Launch-Python-script-on-startup/
+
+#!/bin/sh
+# launcher.sh
+# navigate to home directory, then to this directory, then execute python script, then back home
+
+cd /
+cd home/pi/Projects/temperature-humidity
+sudo python ./sensor-cloud-sync.pyc
+cd /
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <!--<ListView-->
+            <!--android:id="@+id/listv"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:drawSelectorOnTop="false"-->
+            <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A9E2F3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="0dp"
+        >
+               <TextView
+                    android:id="@+id/item_txt_title"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature(F°)"
+                    android:paddingLeft="80dp"
+                    android:textColor="#212121"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/item_txt_message"
+                    android:layout_width="125dp"
+                    android:paddingLeft="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Humidity(%)"
+                    android:textColor="#212121"
+                    android:textSize="14dp" />
+
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

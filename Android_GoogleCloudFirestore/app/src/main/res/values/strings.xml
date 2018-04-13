@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Thermo-Humidity Alert</string>
+    <string name="app_description">Thermometer and Humidity app uses temperature and humidity sensors using Raspberry 3 in smartphones. This app alerts if humidity or temprature crosses higher limit. You can monitoer humidity or temprature of the room from anywhere. This app measure real-time temperature, humidity of configured room.</string>
+</resources>
