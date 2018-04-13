@@ -22,10 +22,10 @@ In winter people use heater and humidifier but they do not have monitoring syste
   - RaspberryPi_Code - Python raspberry pi code to get sensot data and insert in firebase db
   - Android_GoogleCloudFirestore - Android App
   
-  ### 1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy.</br>
-    <img src="images/Firebase Deploy.png">
+  ### 1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy. $ firebase deploy</br>
+<img src="images/Firebase Deploy.png">
   ### 2.	RaspberryPi_Code - Follow tutorial to deploy Cloud function.</br>
-    <img src="images/raspberrypi - VNC Viewer 2018-04-12 22-21-26.png">
+<img src="images/raspberrypi - VNC Viewer 2018-04-12 22-21-26.png">
   ### 3. Android_GoogleCloudFirestore - Open and run in android studio.
 
 ## Technologies Used
