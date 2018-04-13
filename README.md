@@ -7,17 +7,17 @@
 In winter people use heater and humidifier but they do not have monitoring system for healthy limits for temperature and humidity. So this IOT base android app will fulfill their need. Even user can monitor their kids room condition remotely.
 
 ## Product Functions
-•	Live Temperature and Humidity monitoring
-•	Remote monitoring
-•	Data saves in firebase cloud 
-•	Alerts for critical boundaries for temperature and humidity
-•	Can get alerts even app is closed.
-•	High performance with serverless
+- Live Temperature and Humidity monitoring
+- Remote monitoring
+- Data saves in firebase cloud 
+- Alerts for critical boundaries for temperature and humidity
+- Can get alerts even app is closed.
+- High performance with serverless
 
 ## How to Run
 1.	Prerequisite: Android Studio, Raspberry pi3, 3 pin temprature humidity sensor, with basic knowledge of Android, Java, Python, Node.js, Firebase and Google Cloud.
 2.	Download or clone project code and open in Android studio.
-3. It has 3 application
+3.  It has 3 application
   ->1. Firebase_SensorNotificationFunction - Google Firebase Cloud Function
   ->2. RaspberryPi_Code - Python raspberry pi code to get sensot data and insert in firebase db
   ->3. Android_GoogleCloudFirestore - Android App
