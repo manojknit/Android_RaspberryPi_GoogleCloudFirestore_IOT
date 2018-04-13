@@ -18,14 +18,15 @@ In winter people use heater and humidifier but they do not have monitoring syste
 1.	Prerequisite: Android Studio, Raspberry pi3, 3 pin temprature humidity sensor, with basic knowledge of Android, Java, Python, Node.js, Firebase and Google Cloud.
 2.	Download or clone project code and open in Android studio.
 3. It has 3 application
-  1. Firebase_SensorNotificationFunction - Google Firebase Cloud Function
-  2. RaspberryPi_Code - Python raspberry pi code to get sensot data and insert in firebase db
-  3. Android_GoogleCloudFirestore - Android App
-  1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy.</br>
+  ->1. Firebase_SensorNotificationFunction - Google Firebase Cloud Function
+  ->2. RaspberryPi_Code - Python raspberry pi code to get sensot data and insert in firebase db
+  ->3. Android_GoogleCloudFirestore - Android App
+  
+  ### 1.	Firebase_SensorNotificationFunction - Follow tutorial to deploy Cloud function. It will involve install firebase,     login, deploy.</br>
     <img src="images/Firebase Deploy.png">
-  2.	RaspberryPi_Code - Follow tutorial to deploy Cloud function.</br>
+  ### 2.	RaspberryPi_Code - Follow tutorial to deploy Cloud function.</br>
     <img src="images/raspberrypi - VNC Viewer 2018-04-12 22-21-26.png">
-  3. Android_GoogleCloudFirestore - Open and run in android studio.
+  ### 3. Android_GoogleCloudFirestore - Open and run in android studio.
 
 ## Technologies Used
 1.	Java.
@@ -83,6 +84,7 @@ Sensor data which should be synced to firebase database.
 
 ## Refrence
 - [*Pro Android 5*](https://github.com/Apress/pro-android-5) by Dave MacLean, Satya Komatineni, and Grant Allen (Apress, 2015)
+- [*How to set up temperature and humidity sensor (DHT11) on raspberry Pi*](http://kookye.com/2017/06/01/%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AF%BB%E5%8F%96dht11/)
 
 ## Thank You
 #### [*Manoj Kumar*](https://www.linkedin.com/in/manojkumar19/)
