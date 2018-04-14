@@ -39,9 +39,9 @@ Open and run in android studio.
 5.  Firebase and Google Cloud
 
 ## Architecture 
-Serverless Architecture for live update and notification.</br>
+### Serverless Architecture for live update and notification.</br>
 <img src="images/Architecture.png">
-RecyclerView Components.</br>
+### RecyclerView Components.</br>
 <img src="images/RecyclerView.png">
 
 ## User Interfaces
