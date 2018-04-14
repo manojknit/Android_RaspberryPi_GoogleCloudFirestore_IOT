@@ -1,4 +1,4 @@
-# Android app 'Thermo-Humidity Alert' (Demo - Firebase, Serverless, IOT)
+# Android app 'Thermo-Humidity Alert' (demonstration of - Firebase, Serverless, IOT, Live data feed, Android, FCM, Google Function)
 ####                                                                                                     By Manoj Kumar
 ## Introduction 
 ‘Thermo-Humidity Alert’ app is an IOT base software that alert you if humidity or temperature of you room/home goes in critical territories. This app provide cloud base live monitoring capabilities from remote.
