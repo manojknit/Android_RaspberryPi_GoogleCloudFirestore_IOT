@@ -40,7 +40,7 @@ Open and run in android studio.
 
 ## Architecture 
 ### Serverless Architecture for live update and notification.</br>
-<img src="images/Architecture.png">
+<img src="images/Architecture.png"></br>
 ### RecyclerView Components.</br>
 <img src="images/RecyclerView.png">
 
