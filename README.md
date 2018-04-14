@@ -44,8 +44,7 @@ RecyclerView Components.</br>
 
 ## User Interfaces
 ### Live sensor data scream to app
-<img src="images/Android Emulator - Nexus_5X_API_265554 App.png">
-</br>
+<img src="images/Android Emulator - Nexus_5X_API_265554 App.png"></br>
 ### Notification Alerts
 <img src="images/Android Emulator - Nexus_5X_API_265554 Notification.png">
 Notification when humidity recorded as 70% which is higher then limit of 50%. Temperature critical zone start at 80F°.
